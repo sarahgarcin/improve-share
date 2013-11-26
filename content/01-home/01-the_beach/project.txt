@@ -1,0 +1,35 @@
+Title: The Beach
+----
+Year: 2007
+----
+Author: Jonathan Puckey
+----
+Text: Jonathan Puckey a crée de nombreux outils pour Scriptographer (plugin pour Illustrator, crée par Jürg Lehni). Il est arrivé que ces outil soient crées pour répondre à des commandes spécifiques, comme le projet The Beach. The Beach est une société de conseil dans le secteur de l'innovation créative qui met en relation avec les entreprises des artistes, des designers et des scientifiques. Afin de représenter les activités de l'organisme, Jonathan Puckey a réalisé un outil: Tile Tool pour Scriptographer.
+----
+Lien: (link: http://scriptographer.org/scripts/interactive-tools/tile-tool/)
+(link: http://jonathanpuckey.com/static/files/tiletool/tiletool_demo.mov)
+(link: http://scriptographer.org/users/Jonathan/)
+(link: http://jonathanpuckey.com/)
+----
+TitreOutils: Outils Open-Source utilisés
+----
+Outils: Scriptographer
+----
+Tags: 
+----
+TitreStudio : 
+----
+Studio: 
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: Conditionnal Design, Jürg Lehni(Scriptographer)
+----
+Important: augmentation-detournement-d-outils
+----
+Filter: outil source
+----
+Tags: augmentation / détournement d'outils, partage des sources
+

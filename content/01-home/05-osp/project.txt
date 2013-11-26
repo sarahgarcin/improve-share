@@ -1,0 +1,32 @@
+Title: Identité du Théâtre Balsamine
+----
+Year: 2013
+----
+Author: Open Source Publishing
+----
+Text: Open Source Publishing s'occupe, depuis 2011, de la communication du théâtre Balsamine, basé à Bruxelles. Sentant une ouverture d'esprit de la part des commanditaires, OSP s'est lancé dans l'expérimentation réelle d'une conception complète d'une identité graphique en utilisant des outils open-source uniquement. Le studio produit ainsi depuis trois saisons le programme, différentes affiches, le site, la signalétique, la papeterie et les flyers du théâtre. Ainsi que d'autres objets inédits à chaque saison. Ils utilisent des typographies libres (Ume Libre Fonts), Scribus, Inkscape, Gimp, Gaphiviz, Pmwiki, FontForge. Par ce projet, ils prouvent qu'effectuer un travail graphique de bonne qualité dans le cadre d'une commande avec des logiciels libres, c'est possible.
+----
+Lien: (link: http://osp.constantvzw.org/work/balsamine.2013-2014/)
+----
+TitreOutils: Outils Open-Source Utilisés
+----
+Outils: Scribus, Inkscape, Gimp, Gaphiviz, Pmwiki, FontForge
+----
+Tags: utilisation de logiciels open source, partage documentation, partage des sources.
+----
+TitreStudio : Présentation du studio
+----
+Studio: Open Source Publishing est un studio de design graphique qui utilise uniquement des logiciels libres. Composé de nombreux membres qui viennent de différentes pratiques: typographie, design graphique, programmation, mathématique, écriture, art..., OSP s'est fixé comme objectif de tester les possibilités et les réalités liées à la pratique du design graphique. Est-il possible de répondre à un commande de design graphique en utilisant seulement du libre ? Ainsi ils travaillent sur des projets commissionnés ou non, cherchant à redéfinir leur terrain de jeu , réfléchissant sur la relation avec leurs outils. Ils organisent de nombreux workshops dans les écoles d'art, participent à des festivals sur la culture open-source et donnent des conférences afin de faire connaître l'utilisation du libre en design graphique. 
+OSP possède une fonderie typographie, dans laquelle ils proposent en licence libre les typographies qu'ils créent. Leur site web donne accès à toutes les sources de leurs projets, en utilisant le système git (sytème de versioning). Utilisé habituellement pour partager du code et travailler sur le même code à plusieurs, OSP utilise git pour travailler à plusieurs sur leurs projets de design graphique (typographie, identité visuelle, site web...). La présentation de leur travaux sur leur site est ainsi une interface visuelle d'un git. Le visiteur peut suivre l'avancé des projets en cours, voir l'évolution des projets terminés et cloner leur dépôts git sur son ordinateur; signifiant donc, pour un utilisateur un peu expérimenté qu'il peut participer au projet.
+----
+Site: (link: http://osp.constantvzw.org/)
+----
+TitreProjets: Projets Liés
+----
+Projets: Projets liés ici
+----
+Important: logiciels
+----
+Filter: outils doc source logiciels
+----
+Tags: augmentation / détournement d'outils, partage documentation, partage des sources, conférences / workshops, utilisation de logiciels open source.

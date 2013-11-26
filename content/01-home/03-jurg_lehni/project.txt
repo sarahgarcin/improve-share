@@ -1,0 +1,32 @@
+Title: Paper.js
+----
+Year: 2012
+----
+Author: Jurg Lehni
+----
+Text: Paper.js est un framework JavaScript facilitant l’écriture de scripts dynamiques à destination de Canvas (HTML5). Afin d’éviter de se noyer dans les primitives de base qui peuvent être très chronophages, Paper.js gère via les fonctions qu’il propose des méthodes de plus haut niveau pour les chemins et segments, l’interaction à la souris et au clavier, les symboles, la manipulation de couleurs et la sélection de formes. Sur le site du projet, on retrouve des exemples d'utilisation du script. Pour chaque exemple le code est disponible et modifiable en ligne. La librairie est également très bien documenté, de nombreux tutoriaux permettent à chacun de comprendre le fonctionnement de paper.js.
+----
+Lien: (link: http://paperjs.org/)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: création d'outil, partage des sources.
+----
+TitreStudio : Présentation de Jürg Lehni
+----
+Studio: Jürg Lehni (né en 1978 à Lucerne, vit et travaille à Londres) est designer indépendant, développeur et artiste. Son travail s'ancre dans une réflexion sur l'outil informatique, ses utilisations et les adaptations que la technologie demande. Il a été rendu célèbre par son projet de diplôme à l'ECAL, en 2002: Hektor. Hektor est une sorte de robot / dispositif de pulvérisation de peinture (à l'aide d'une home aérosol) portatif assisté par ordinateur. Aux yeux de Jürg Lehni, il est essentiel d'ouvrir, dans le champ de l'esthétique, de nouveaux espaces d'action, auxquels les machines et les logiciels existants (fortement normalisés par les grands fabricants) ne peuvent accéder. C'est ainsi que Jurg Lehni fabrique ou détourne des outils. Il contribuent également à l'amélioration ou au développement des outils open source pour designer ou artistes comme (link: http://scriptographer.org/ text: Scriptographer), un plugin pour Adobe Illustrator qui permet d'étendre les possibilités de celui-ci ou Paper.js une librairie javascript (développé avec Jonathan Puckey).
+----
+Site: (link: http://lehni.org/)
+----
+TitreProjets: Projets Liés
+----
+Projets: Projets liés ici
+----
+Important: creation-outil
+----
+Filter: outil source
+----
+Tags: création d'outil, partage des sources.
+

@@ -1,0 +1,32 @@
+Title: Structured Light
+----
+Year: 2010
+----
+Author: Catalogtree
+----
+Text: Le studio de design graphique hollandais a crée son propre scanner 3D, avec un rendu très graphique. 
+----
+Lien: 
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: augmentation / détournement d'outils, création d'outils.
+----
+TitreStudio : Présentation du studio
+----
+Studio: Catalogtree est un studio de design graphique pluridisciplinaire fondé en 2001 par Daniel Gross et Joris Maltha.Le studio a pris l'habitude de fabriquer ses propres outils afun d'éfviter des choix trop évidents dans leur travail. Par manque de connaissances, les outils produits par le studio sont un peu "bricolé", c'est pourquoi ils ne les utilisent pas souvent pour leurs commandes. La plupart de leur outils ont été crées dans un but expérimental. 
+----
+Site: (link: http://catalogtree.net/)
+----
+TitreProjets: Projets Liés
+----
+Projets: 
+----
+Important: augmentation-detournement-d-outils
+----
+Filter: outils
+----
+Tags: augmentation / détournement d'outils, création d'outils
+

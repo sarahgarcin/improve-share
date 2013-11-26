@@ -1,0 +1,37 @@
+Title: This should made be public
+----
+Year: 2007
+----
+Author: Anja Lutz
+----
+Text: Dans le cadre du projet Shift!
+Ce projet a été réalisé dans quatre villes différentes: Luxembourg, Le Caire, Milan et Bangkok.
+L'idée du projet était de réfléchir sur quelles idées, quelles discussions doivent être rendues publiques, doivent être publiées. 
+Un espace de travail a été crée dans chacun des lieux accueillant le projet, offrant tous les éléments nécessaires à l'écriture, le dessin... Les visiteurs étaient alors invités à exprimer leurs idées en utilisant le cadre blanc mis à leur disposition. À la fin du projet, toutes les propositions sont affichées les unes à côté des autres.  
+Au Caire, les feuilles blanches ont été posées dans les rues, invitant les passants à s'exprimer. Malgré, une liberté d'expression restreinte en Égypte, les espaces blancs ont été remplis rapidement par des commentaires très intéressants. 
+     À Bangkok, l'espace de travail s'est installé dans un centre commercial, lieux les plus fréquentés en Thaïlande afin d'atteindre un maximum de public. 
+----
+Lien: (link: http://www.shift.de/scripts/publications/detail.php?ID=73)
+(link: http://www.flickr.com/photos/this_should_be_made_public/ )
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: 
+----
+TitreStudio : 
+----
+Studio: 
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: The Bubble Project
+----
+Important: collaboration
+----
+Filter: collaboration 
+----
+Tags: création en collaboration, partage

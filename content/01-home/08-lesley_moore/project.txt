@@ -1,0 +1,35 @@
+Title: Lesley Moore
+----
+Year: 2008
+----
+Author: Lesley Moore
+----
+Text: Lesley Moore est un studio de design graphique hollandais composé de Karin Van Den Brandt et Alex Clay. Pour leur identité, ils ont choisi un système complètement ouvert: ce sont les visiteurs du site qui la créent. En créant un outil: la LM Logo Machine, ils proposent aux visiteurs de combiner librement des éléments graphiques (cercle, rond, carré) et des lettres (les initiales de Lesley Moore) afin de réaliser leur logo.
+Tous les logos ainsi produits sont archivés dans une base de données, et contribuent à l'image du studio. Chaque logo est utilisé une seul fois (une déclinaison papier en-tête, carte de visite, enveloppe...) Ce système génère une identité collaborative et éphémère.
+     Ce projet s'inscrit dans une logique de contribution. Qui en a l'envie, peut créer le logo de ce studio de graphisme, sans qu'il y ait de sélection. De plus afin de faire réaliser ces logos, le studio a dû créer un outil unique (la LM Logo Machine).
+----
+Lien: (link: http://www.lesley-moore.nl/ )
+(link: http://www.lesley-moore.nl/lm.php#/FUTURE/LM_LOGO_MACHINE)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: 
+----
+TitreStudio : 
+----
+Studio: 
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets:
+----
+Important: collaboration
+----
+Filter: outil collaboration
+----
+Tags: création d'outils, création en collaboration
+

@@ -1,0 +1,32 @@
+Title: World Spectrum Archive
+----
+Year: 2006
+----
+Author: Lust
+----
+Text: Ce projet est une commande du quotidien néerlandais De Volkskrant. LUST a conçu pour ce projet un programme qui analyse chaque jour les actualités du monde publiées dans Google Actualités. Il utilise ensuite ces données pour créer une carte du monde textuelle et colorée. Chaque pays possède sa fenêtre de texte qui contient les 5 news les plus récentes. Le programme analyse également le contenu de ces news afin de la classer sur une échelle allant du positif au négatif, qui visuellement se traduit en couleur : du vert au rouge. Différents types de navigation sont proposer à l'internaute : une navigation en carte, une navigation linéaire (du positif au négatif) une navigation par pays.
+----
+Lien: (link: http://lust.nl/#projects-57)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: augmentation / détournement d'outils, création d'outils.
+----
+TitreStudio : Présentation du studio
+----
+Studio: LUST travaille avec une méthodologie basée sur le processus, par laquelle le processus analytique débouche sur un produit final qui s'auto-conçoit. C'est ainsi que LUST a décidé dans ses projets d'écrire son propre code et de construire ses propres outils. En s'affranchissant ainsi des contraintes liés aux logiciels existants, LUST reste proche de ses idées initiales, pensant que l'outil a un impact fort sur le visuel d'un projet. 
+----
+Site: (link: http://lust.nl/)
+----
+TitreProjets: Projets Liés
+----
+Projets: 
+----
+Important: creation-outil
+----
+Filter: outil
+----
+Tags: augmentation / détournement d'outils, création d'outils.
+

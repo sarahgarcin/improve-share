@@ -1,0 +1,32 @@
+Title: One Frame of Fame
+----
+Year: 2013
+----
+Author: Jonathan Puckey
+----
+Text: Jonathan Puckey a réalisé le clip du morceau More is Less du groupe C-Mon & Kypski. Pour réaliser ce clip il a demandé aux internautes volontaires du web de prendre une minute de leur temps, en se prenant en photo dans une position spécifique avec la webcam de leur ordinateur. Demandant des positions différentes à chaque internaute, la compilation de ces images de webcam permet de créer un stop motion. Le clip est ainsi un regroupement organisé de tous ces auto-portraits. Le clip n'est jamais terminé et s'augmente toujours par de nouvelles photos. 
+----
+Lien: (link: http://oneframeoffame.com/)
+(link: http://jonathanpuckey.com/)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags:
+----
+TitreStudio : 
+----
+Studio:
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: Projets liés ici
+----
+Important: collaboration
+----
+Filter: collaboration
+----
+Tags: création en collaboration

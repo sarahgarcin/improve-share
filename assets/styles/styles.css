@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'ume';
+    src: url('../fonts/ume-p-mincho-webfont.eot');
+    src: url('../fonts/ume-p-mincho-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ume-p-mincho-webfont.woff') format('woff'),
+         url('../fonts/ume-p-mincho-webfont.ttf') format('truetype'),
+         url('../fonts/ume-p-mincho-webfont.svg#ume_p_minchoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: 101%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: 'ume',Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  background: #ededee;
+  color: #777;
+  width: 100%;
+  height:100%;
+  margin: 50px;
+
+}
+a {
+  color: #222;
+  text-decoration: none;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  outline: 0px;
+}
+a:hover {
+  color: red;
+}
+img {
+  outline: 0;
+  border: 0;
+}
+h1 {
+  font-size: 28px;
+  line-height: 40px;
+  color: #222;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: red;
+  margin-bottom: 21px;
+}
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 21px;
+}
+h4 {
+  color: red;
+  font-weight: normal;
+}
+p {
+  margin-bottom: 20px;
+}
+nav {
+  overflow: hidden;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: 10px 0;
+}
+nav li {
+  list-style: none;
+  margin-right: 20px;
+  font-weight: bold;
+  float: left;
+}
+nav li a.active {
+  color: red;
+}
+nav.submenu {
+  border-top: none;
+  margin-bottom: 20px;
+}
+nav.submenu a {
+  font-weight: normal;
+}
+section.content {
+  margin: 70px;
+  height:90%;
+}
+
+section.content-projet {
+  margin: 70px;
+  height:90%;
+}
+
+#canvas {
+width:100%;
+height: 70%;
+
+}
+
+#canvas li {
+  position:absolute;
+  list-style: none;
+  border: 0.15em solid #00CED1;
+  background: #FFF;
+  width:15%;
+}
+
+#canvas img {
+  max-width: 90%;
+  height:auto;
+  padding:4%;
+  
+}
+
+#canvas li p{
+  padding:3px;
+  float:center;
+  text-align: center;
+}
+
+#canvas li p a{
+  color:#000;
+}
+
+#canvas li p a:hover{
+  text-decoration: underline;
+}
+
+.tags {
+  z-index: 1000;
+  background:#fff;
+  display: block;
+  position:fixed;
+  top:50%;
+  left:80%;
+}
+
+.tags label{
+  display:block;
+  border: 1px solid #000;
+  padding:0.7em;
+}
+
+.tags input{
+  display: inline-block;
+
+}
+
+/* Classe pour la couleur du border des images suivants leurs tags*/
+
+#canvas li.augmentation-detournement-d-outils {
+  border-color: #ff0000;
+}
+
+#canvas li.creation-outil {
+  border-color: #00CED1;
+}
+
+#canvas li.collaboration {
+  border-color: #e76519;
+}
+
+#canvas li.logiciels {
+  border-color: #7dc800;
+}
+
+#canvas li.documentation {
+  border-color: #ffee00;
+}
+
+#canvas li.introduction {
+  border-color: #000;
+  width:23%;
+  height:80%;
+  overflow:auto;
+  z-index:3;
+}
+
+#canvas li.introduction img{
+  padding-bottom:0;
+}
+
+#canvas li.introduction p{
+  font-size:0.9em;
+  padding-left:15px;
+  padding-right: 15px;
+  
+}
+
+/* Page Project */
+
+.gallery li{
+  list-style: none;
+}
+
+.gallery li img {
+  width:80%;
+}
+
+footer {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid red;
+  font-size: 13px;
+  color: #222;
+}
+footer a {
+  color: red;
+}
+footer a:hover {
+  color: #222;
+}
+
+::-webkit-scrollbar {  
+    width: 5.5px; 
+}  
+::-webkit-scrollbar-track {  
+    background-color: #C6C6C6;  
+    border-left: 1px solid #C6C6C6;  
+}  
+::-webkit-scrollbar-thumb {  
+    background-color: #808080;  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    background-color: #000;  
+} 
+

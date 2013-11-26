@@ -1,0 +1,32 @@
+Title: Sign Generator
+----
+Year: 2003
+----
+Author: Norm et Jürg Lehni
+----
+Text: Sign Generator, un générateur de signes développé en collaboration avec Jurg Lehni, est né d’une réflexion critique autour de l’alphabet occidental. Le générateur trace des droites d’un point à un autre sur une grille de 3 points sur 3, pour fabriquer autant de signes qu’il y a de possibilités offertes par cette grille. Dans le nombre fini d’éléments ainsi générés, on retrouve les lettres de l’alphabet romain – a, b, c, etc. – et les variantes de formes dont elles peuvent faire l’objet. Ce générateur de signes se présente sous deux formes: un software et un hardware. On retrouve le software à l'adresse suivante <http://lineto.com/The+Designers/Norm/Sign-Generator/Software/Sign-Generator+1.0/>, où chacun peut générer sa bibliothèque de signes, l'imprimer et l'exporter en fichiers .eps. Sign Generator a été également développé avec un clavier relié à un écran qui affiche les différentes combinaisons de signes. 
+----
+Lien: (link: http://lineto.com/The+Designers/Norm/Sign-Generator/Software/Sign-Generator+1.0/)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: 
+----
+TitreStudio : 
+----
+Studio: 
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: Jürg Lehni
+----
+Important: creation-outil
+----
+Filter: outil source
+----
+Tags: création d'un outil, partage
+

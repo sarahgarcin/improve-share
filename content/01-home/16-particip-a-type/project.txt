@@ -1,0 +1,34 @@
+Title: Particip-a-type
+----
+Year: 2011
+----
+Author: Élise Gay et Kevin Donnot
+----
+Text: Particip-a-type.co.cc est un site participatif de création typographique en ligne. Chaque nouvel utilisateur est invité à modifier le dessin du caractère créé par l’utilisateur précédent, influençant à son tour le suivant. Les fontes dessinées sont archivées et téléchargeables au format Opentype pour être utilisées.
+Tous les caractères portent l’empreinte de la grille triangulaire de base, qui donne une unité à l’ensemble, évite une trop grande stabilisation des formes et invite à la modification.
+Toutes les fontes sont distribuées gratuitement, sous licence Creative Commons BY-SA, étant admis que la paternité appartient à l’ensemble des contributeurs du site. Il s’agit donc d’un outil libre (FLOSS) de dessin de caractère, prenant en compte les questions actuelles de partage et de mutualisation de la création. Il utilise TTX, un logiciel libre de LettError. Le projet a été crée à l'école des Beaux-Arts de Rennes, dans le cadre d'un workshop avec Catalogtree.
+----
+Lien: (link: http://www.e-k.fr/typo//)
+(link: http://www.e-k.fr/)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags:
+----
+TitreStudio : 
+----
+Studio:
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: Catalogtree
+----
+Important: collaboration
+----
+Filter: collaboration outil source
+----
+Tags: création en collaboration, création d'un outil, partage des sources

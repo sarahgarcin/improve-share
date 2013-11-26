@@ -1,0 +1,46 @@
+Title: Human Processing / We were hatching
+----
+Year: 2009
+----
+Author: Conditionnal Design
+----
+Text: We were hatching est un projet qui fait parti du workshop proposé par Conditionnal Design:  "Human Processing Unit" à l'université de Yale. Ce workshop proposait à l'Homme de devenir un outil, l'outil de production d'une image unique; une sorte de programme humain itératif. Chaque programme utilisait une feuille de papier A1 et 4 feutres de couleurs, et était exécutable par 2 à 4 participants. Ainsi chaque projet du workshop était régi par des règles précises établies à l'avance. 
+Le but de ce projet était de créer autant de zones hachurées que possible.
+Les règles étaient donc les suivantes: 
+<strong>Initial setup</strong>
+Se joue avec 4 joueurs
+Chaque joueur a son feutre : rouge, vert, bleu et noir
+Chaque joueur doit placer un point sur la feuille de papier à moins de 10 cm d'un autre point.
+Les joueurs jouent chacun leur tour 
+<strong>Tâche à accomplir chaque tour par un chaque joueur:</strong>
+Tracer une ligne droite
+La ligne doit relier deux points.
+L'angle de la ligne doit être dans la plage suivante: 0 à 45 degrés pour les lignes noires, 45 à 90 degrés pour les lignes bleues de 90 à 135 ° pour les lignes rouges, 135 à 180 ° pour les lignes vertes.
+Connectez la ligne à une ligne existante, si possible.
+Dessinez la ligne la plus courte possible à partir de votre point de départ. Si vous fermez une zone, hachurez la avec des lignes parallèles afin de remplir la zone.
+La zone fermée ne peut pas contenir des points non connectés ou ouvrir des lignes asymétriques.
+Placez un point
+----
+Lien: 
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: création d'outil, partage documentation, partage des sources, workshop.
+----
+TitreStudio : Présentation du collectif
+----
+Studio: Conditionnal Design est un collectif de designers graphiques (Luna Maurer, Edo Paulus, Jonathan Puckey et Roel Wouters) qui se réunit tous les jeudis depuis 2008. Ils suivent plusieurs lignes de conduite parmi lesquelles : "Le processus est le produit", "La logique est notre outil", "la collaboration est notre matériel". C'est ainsi que Conditionnal Design utilise l'homme comme matériel et des régles qu'il définissent comme leur outil afin de produire des images. Un projet de Conditionnal Design se déroule ainsi : une table avec du papier et des feutres, des participants et des règles. Les participants suivent les règles à la lettre afin de créer l'image. Sur leur site on retrouve toutes les règles qu'ils ont inventé, chacun peut alors reproduire le processus à sa guise. Les projets de Conditionnal Design se déroulent souvent lors de workshops qu'ils organisent. 
+----
+Site: (link: http://conditionaldesign.org/)
+----
+TitreProjets: Projets Liés
+----
+Projets: Projets liés ici
+----
+Important: creation-outil
+----
+Filter: outil doc source workshop
+----
+Tags: création d'outil, partage documentation, partage des sources, workshop

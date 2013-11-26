@@ -1,0 +1,33 @@
+Title: Get up!
+----
+Year: 2007
+----
+Author: Alexis Rom Estudio
+----
+Text: Alexis Rom et Claud Marzotto étaient missionés pour créer l'identité d'un salon de coiffure. Leur réponse originale à cette commande fut de proposer un kit de tampons que les clients peuvent utiliser eux-mêmes afin de réaliser la carte de visite du salon comme ils le souhaitent. Les tampons permettent de combiner visages et coiffures différentes. Le kit permet également un certaine économie de moyen, puisque le salon n'imprime que ce dont il a besoin, en totale autonomie. 
+Get up s'inscrit dans une logique open-source car il met à contribution les clients du salon de coiffure. Chacun est libre de créer sa carte de visite personnalisée, de manière rapide et simple. De plus, c'est bien un outil qu'Alexis Rom Estudio propose au salon.
+----
+Lien: (link: http://alexisromestudio.eu/page%20type%20name/get-up-printing-kid/)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: 
+----
+TitreStudio : 
+----
+Studio: 
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets:
+----
+Important: creation-outil
+----
+Filter: outil collaboration
+----
+Tags: création d'un outil, création en collaboration
+

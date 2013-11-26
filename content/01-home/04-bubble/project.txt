@@ -1,0 +1,33 @@
+Title: The Bubble Project
+----
+Year: 2002
+----
+Author: Ji Lee
+----
+Text: Ji Lee crée et propage des espaces de réaction pour combattre la publicité. Il a imprimé de nombreuses bulles de BD vides et les a collées sur des affiches publicitaires de New York. Un peu à l'image des (link: http://www.reposeurs.eu.org/ text:reposeurs) en France mais en laissant libre parole aux passants. Chacun peut ainsi détourner le sens original de la publicité, laisser un commentaire ou faire simplement une blague. L'idée s'est alors propagée dans différentes villes du monde (notamment à l'aide de groupe facebook) grâce aux modèles de bulles téléchargeables sur le site du projet. 
+----
+Lien: (link: http://www.thebubbleproject.com/)
+    (link: http://www.flickr.com/groups/bubble_project/pool/)
+----
+TitreOutils: 
+----
+Outils: 
+----
+Tags: 
+----
+TitreStudio : 
+----
+Studio: 
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: We should make be public
+----
+Important: collaboration
+----
+Filter: collaboration, source
+----
+Tags: création en collaboration, partage
+

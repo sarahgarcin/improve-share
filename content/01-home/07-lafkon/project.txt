@@ -1,0 +1,33 @@
+Title: chmod + x
+----
+Year: 2009
+----
+Author: Lafkon
+----
+Text: Série de posters pour le festival <i>Make Art</i>. <i>Make art</i> est un festival international dédié à l'intégration du libre, des logiciels libres, des pratiques ouvertes et de la culture libre dans les arts digitaux. Ainsi pour ce projet Lafkon génère des affiches à partir d'extraits de code processing. Les différents <i>sketchs</i> processing sont compilés en PDF, puis le logiciel choisit aléatoirement des PDF qu'il insère dans une composition Latex (langage de programmation de mise en page) afin d'en produire une affiche. La mise en page construite en Latex est fixe, ce sont seulement les éléments à l'intérieur qui changent. Ce processus de création d'affiches permet de générer rapidement de nombreuses affiches différentes. 
+----
+Lien: (link: http://research.lafkon.net/projects/777/)
+----
+TitreOutils: Outils Open-Source utilisés
+----
+Outils: Processing, Latex.
+----
+Tags: augmentation / détournement d'outils, partage documentation, partage des sources, utilisation de logiciels open source.
+----
+TitreStudio : Présentation du studio
+----
+Studio: LAFKON est un studio de design graphique crée en 2001 par Benjamin Stephan et Christoph Haag. La production du studio se situe dans le design génératif. Ils créent ainsi leurs outils pour générer leurs images. Tous les codes sources sont partagés et distribués sous une license GPL ou Creative Commons. Certains projets sont mêmes expliqués de A à Z afin que chacun puisse reproduire le processus. 
+Lafkon a également développé (link: http://vektordb.lafkon.net/ text: une base de donné d'images vectorielles), chacun est invité à utiliser ces images vectorielles, à les copier, à les modifier et à en proposer de nouvelles. Ces images sont au format svg, et produit avec le logiciel open source Inkscape. 
+En plus de travailler dans une logique open source / libre, Lafkon travaille pour des organisations promouvant le libre et l'open source.
+----
+Site: (link: http://www.lafkon.net/)
+----
+TitreProjets: Projets Liés
+----
+Projets: Projets liés ici
+----
+Important: documentation
+----
+Filter: outil doc source logiciels
+----
+Tags: augmentation / détournement d'outils, partage documentation, partage des sources, création en collaboration, conférences / workshops, utilisation de logiciels open source.

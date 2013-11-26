@@ -1,0 +1,34 @@
+Title: Degré 48
+----
+Year: 2013
+----
+Author: g-u-i
+----
+Text: Degré 48 est un cycle de conférences / performances autour de la notion de manifeste qui se déroule durant l'année 2013 aux Laboratoires d'Aubervilliers. 
+Le collectif de graphistes g-u-i déploie un projet d’édition et de publication qui prend forme à chaque soirée-manifeste. Ces publications ont pour vocation de relayer les manifestes sous la formes de posters. 
+À chaque soirée-manifeste, un nouveau dispositif est inventé, permettant de créer des posters uniques en tant réels, documentant ces soirées. Les spectateurs peuvent ensuite récupérer ces posters inédits à la fin de la soirée. Chaque dispositif tentent d'être précisément documenté, en vue d'en partager les codes sources. 
+----
+Lien: (link: http://www.leslaboratoires.org/article/edition-des-manifestes-gui)
+(link: http://vimeo.com/channels/d48)
+----
+TitreOutils: Outils Open-Source utilisés
+----
+Outils: Raspberry Pi, image magick, processing, Sikuli
+----
+Tags:
+----
+TitreStudio : 
+----
+Studio:
+----
+Site: 
+----
+TitreProjets: Projets Liés
+----
+Projets: Projets liés ici
+----
+Important: creation-outil
+----
+Filter: outil doc source
+----
+Tags: augmentation / détournement d'outils, partage / documentation, partage des sources,
