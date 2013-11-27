@@ -15,9 +15,11 @@
 	  			<?php echo $project->author() ?></p>
 	  			<p><?php echo $project->intro() ?></p>
 		    </li>
+
 		    <?php endforeach ?>
 		 </ul>
 	</div>
+
 
   
   
@@ -84,6 +86,31 @@ $(document).ready(function(){
     });
 
 // Création d'une div de type "pays" + intégration des projets du pays dans la div
+
+    /* INTRODUCTION*/
+
+    var div = document.createElement('div');
+    div.className = "introduction-wrapper"; 
+    $('.projets').append(div);
+    $('.introduction').each(function() {
+        $(div).append($(this));
+    });
+
+
+    $(".introduction-wrapper li").each(
+        function(intIndex) {
+
+            var l = Math.floor(Math.random() * $(".introduction-wrapper").width());
+            var t = Math.floor(Math.random() * $(".introduction-wrapper").height());
+
+        $(this).css("left", l);
+        $(this).css("top", t);
+
+    }); 
+
+    //    $(document).on('click','.introduction',function(){
+    //       $('.introduction').remove();
+    // });
 
     /* FRANCE */
 

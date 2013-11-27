@@ -43,7 +43,18 @@ fields:
       Création en collaboration: Création en collaboration
       Workshop/Conférences: Workshop/Conférences
       Utilisation de logiciels open-source: Utilisation de logiciels open-source
-      Projets de recherche : Projets de recherche      
+      Projets de recherche : Projets de recherche 
+  pays: 
+    label: Pays du projet
+    type:  select
+    options:
+      france:  France
+      paysbas: Pays-Bas
+      suisse: Suisse
+      usa: USA
+      belgique: Belgique
+      espagne: Espagne
+      allemagne: Allemagne       
   titreoutils: 
     label: Titre Outils
     type:  select
