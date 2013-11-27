@@ -27,7 +27,7 @@ TitreProjets: Projets Liés
 ----
 Projets: Conditionnal Design, Jürg Lehni(Scriptographer)
 ----
-Important: augmentation-detournement-d-outils
+Important: creation-outil
 ----
 Filter: outil source
 ----

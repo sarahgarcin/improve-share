@@ -27,6 +27,6 @@ Projets: We should make be public
 ----
 Important: collaboration
 ----
-Filter: collaboration
+Filter: collaborate
 ----
 Tags: création en collaboration

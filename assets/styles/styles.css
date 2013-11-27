@@ -161,24 +161,32 @@ height: 70%;
 
 /* Classe pour la couleur du border des images suivants leurs tags*/
 
-#canvas li.augmentation-detournement-d-outils {
-  border-color: #ff0000;
-}
-
 #canvas li.creation-outil {
   border-color: #00CED1;
 }
 
-#canvas li.collaboration {
+#canvas li.documentation {
+  border-color: #ffee00;
+}
+
+#canvas li.partage-sources {
+  border-color: #000f63;
+}
+
+#canvas li.collaborate {
   border-color: #e76519;
 }
 
-#canvas li.logiciels {
+#canvas li.work-conf {
+  border-color: #ff4980;
+}
+
+#canvas li.software{
   border-color: #7dc800;
 }
 
-#canvas li.documentation {
-  border-color: #ffee00;
+#canvas li.search{
+  border-color: #808080;
 }
 
 #canvas li.introduction {
@@ -223,6 +231,8 @@ footer a {
 footer a:hover {
   color: #222;
 }
+
+/* ScrollBar css */
 
 ::-webkit-scrollbar {  
     width: 5.5px; 

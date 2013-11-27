@@ -27,7 +27,7 @@ TitreProjets: Projets Liés
 ----
 Projets:
 ----
-Important: collaboration
+Important: collaborate
 ----
 Filter: outil collaboration
 ----

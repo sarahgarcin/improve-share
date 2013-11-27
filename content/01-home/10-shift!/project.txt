@@ -30,7 +30,7 @@ TitreProjets: Projets Liés
 ----
 Projets: The Bubble Project
 ----
-Important: collaboration
+Important: collaborate
 ----
 Filter: collaboration 
 ----

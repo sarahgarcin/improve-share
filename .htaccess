@@ -42,6 +42,7 @@ RewriteRule ^(.*) index.php [L]
  
 </IfModule>
 
+SetEnv PHP_VER 5
 
 # Additional recommended values
 # Remove comments for those you want to use. 

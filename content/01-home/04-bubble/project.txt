@@ -25,9 +25,9 @@ TitreProjets: Projets Liés
 ----
 Projets: We should make be public
 ----
-Important: collaboration
+Important: collaborate
 ----
-Filter: collaboration, source
+Filter: collaboration source
 ----
 Tags: création en collaboration, partage
 

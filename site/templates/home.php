@@ -21,34 +21,6 @@
   
   
 	<div class="tags">
-<!-- 	<div>	
-		<input type="checkbox" name="principe" value="outil" id="outil">
-    	<label for="outil">Création / augmentation d'outils</label>
-  	</div>
-  	<div>
-    	<input type="checkbox" name="principe" value="doc" id="doc">
-    	<label for="doc">Partage de la documentation</label>
-  	</div>
-  	<div>
-    	<input type="checkbox" name="principe" value="source" id="source">
-    	<label for="source">Partage des sources</label>
-    </div>
-    <div>
-    	<input type="checkbox" name="principe" value="collaboration" id="collaboration">
-    	<label for="collaboration">Création en collaboration</label>
-    </div>
-    <div>	
-		<input type="checkbox" name="principe" value="workshop" id="workshop">
-    	<label for="workshop">Workshop / Conférences</label>
-  	</div>
-  	<div>
-    	<input type="checkbox" name="principe" value="logiciels" id="logiciels">
-    	<label for="logiciels">Utilisation de logiciels open source</label>
-  	</div>
-  	<div>
-    	<input type="checkbox" name="principe" value="recherche" id="recherche">
-    	<label for="recherche">Projets de recherche</label>
-  	</div> -->
 
         <label>
             <input type="checkbox" rel="outil" />

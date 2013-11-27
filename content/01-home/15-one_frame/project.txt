@@ -25,7 +25,7 @@ TitreProjets: Projets Liés
 ----
 Projets: Projets liés ici
 ----
-Important: collaboration
+Important: collaborate
 ----
 Filter: collaboration
 ----

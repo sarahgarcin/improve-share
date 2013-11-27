@@ -25,7 +25,7 @@ TitreProjets: Projets Liés
 ----
 Projets: Projets liés ici
 ----
-Important: logiciels
+Important: software
 ----
 Filter: outils doc source logiciels
 ----

@@ -27,7 +27,7 @@ TitreProjets: Projets Liés
 ----
 Projets: Catalogtree
 ----
-Important: collaboration
+Important: collaborate
 ----
 Filter: collaboration outil source
 ----
