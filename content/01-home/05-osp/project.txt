@@ -21,6 +21,8 @@ OSP possède une fonderie typographie, dans laquelle ils proposent en licence li
 ----
 Site: (link: http://osp.constantvzw.org/)
 ----
+Pays: belgique
+----
 TitreProjets: Projets Liés
 ----
 Projets: Projets liés ici

@@ -115,7 +115,7 @@ height: 70%;
   list-style: none;
   border: 0.15em solid #00CED1;
   background: #FFF;
-  width:15%;
+  width:100%;
 }
 
 #canvas img {
@@ -138,6 +138,60 @@ height: 70%;
 #canvas li p a:hover{
   text-decoration: underline;
 }
+
+/* ILOT WRAPPER */
+
+.france-wrapper {
+position:fixed;
+width:16%;
+top:2%;
+left:2%;
+}
+
+.paysbas-wrapper {
+position:fixed;
+width:16%;
+top:2%;
+left:33%;
+}
+
+.suisse-wrapper {
+position:fixed;
+width:16%;
+top:2%;
+left:70%;
+}
+
+.allemagne-wrapper {
+position:fixed;
+width:16%;
+top:50%;
+left:2%;
+}
+
+.usa-wrapper {
+position:fixed;
+width:16%;
+top:50%;
+left:33%;
+}
+
+.belgique-wrapper {
+position:fixed;
+width:16%;
+top:50%;
+left:57%;
+}
+
+.espagne-wrapper {
+position:fixed;
+width:16%;
+top:50%;
+left:57%;
+}
+
+
+/* TAGS */
 
 .tags {
   z-index: 1000;
@@ -193,6 +247,7 @@ height: 70%;
   border-color: #000;
   width:23%;
   height:80%;
+  position:fixed;
   overflow:auto;
   z-index:3;
 }

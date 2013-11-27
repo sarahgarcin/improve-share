@@ -20,6 +20,8 @@ Studio:
 ----
 Site: 
 ----
+Pays: suisse
+----
 TitreProjets: Projets Liés
 ----
 Projets: Jürg Lehni

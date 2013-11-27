@@ -22,6 +22,8 @@ En plus de travailler dans une logique open source / libre, Lafkon travaille pou
 ----
 Site: (link: http://www.lafkon.net/)
 ----
+Pays: allemagne
+----
 TitreProjets: Projets Liés
 ----
 Projets: Projets liés ici
