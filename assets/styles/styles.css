@@ -115,7 +115,7 @@ height: 70%;
   list-style: none;
   border: 0.15em solid #00CED1;
   background: #FFF;
-  width:100%;
+/*  width:100%;*/
 }
 
 #canvas img {
@@ -148,52 +148,94 @@ height: 70%;
 }
 
 .france-wrapper {
-position:fixed;
-width:16%;
-top:2%;
-left:2%;
+position: fixed;
+width:15%;
+height:10%;
+top:1%;
+left:1%;
+border: 1px solid #000;
+}
+
+.france-wrapper li{
+width:90%;
 }
 
 .paysbas-wrapper {
 position:fixed;
-width:16%;
-top:2%;
-left:33%;
+width:30%;
+height:5%;
+top:1%;
+left:29%;
+border: 1px solid #000;
+}
+
+.paysbas-wrapper li{
+width:45%;
 }
 
 .suisse-wrapper {
 position:fixed;
 width:16%;
-top:2%;
-left:65%;
+height:10%;
+top:6%;
+left:75%;
+border: 1px solid #000;
+}
+
+.suisse-wrapper li{
+width:70%;
 }
 
 .allemagne-wrapper {
 position:fixed;
-width:16%;
+width:10%;
+height:10%;
 top:50%;
-left:2%;
+left:30%;
+border: 1px solid #000;
+}
+
+.allemagne-wrapper li{
+width:110%;
+}
+
+.belgique-wrapper {
+position:fixed;
+width:13%;
+height:10%;
+top:50%;
+left:52%;
+border: 1px solid #000;
+}
+
+.belgique-wrapper li{
+width:85%;
 }
 
 .usa-wrapper {
 position:fixed;
 width:16%;
+height:10%;
 top:50%;
-left:30%;
+left:1%;
+border: 1px solid #000;
 }
 
-.belgique-wrapper {
-position:fixed;
-width:16%;
-top:50%;
-left:57%;
+.usa-wrapper li{
+width:80%;
 }
 
 .espagne-wrapper {
 position:fixed;
-width:16%;
+width:7%;
+height:10%;
 top:50%;
-left:57%;
+left:72%;
+border: 1px solid #000;
+}
+
+.espagne-wrapper li{
+width:130%;
 }
 
 
@@ -204,8 +246,8 @@ left:57%;
   background:#fff;
   display: block;
   position:fixed;
-  top:50%;
-  left:80%;
+  bottom:30px;
+  right:30px;
 }
 
 .tags label{
@@ -268,6 +310,45 @@ left:57%;
   padding-left:15px;
   padding-right: 15px;
   
+}
+
+.intro {
+  border:0.15em solid #000;
+  background-color: #fff;
+  position: absolute;
+  top:10%;
+  left:40%;
+  width:22%;
+  height:auto;
+  max-height:80%;
+  overflow:auto;
+  z-index:1000;
+
+}
+
+.intro p{
+  font-size:0.9em;
+  padding-left:5%;
+  padding-right:5%;
+  text-align: center;
+
+}
+
+.intro img{
+  width:90%;
+  float:center;
+  margin:5%;
+}
+
+.intro .close-buttons {
+  font-size:0.9em;
+  width:2%;
+  position:absolute;
+  top:0;
+  right:0;
+  padding:0.2em 0.7em ;
+  text-align:center;
+
 }
 
 /* Page Project */

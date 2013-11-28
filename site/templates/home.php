@@ -13,16 +13,37 @@
 	  			<p><?php echo $project->year() ?> </br>
 	  			<?php echo $project->title() ?></br>
 	  			<?php echo $project->author() ?></p>
-	  			<p><?php echo $project->intro() ?></p>
+<!-- 	  			<p><?php echo $project->intro() ?></p> -->
 		    </li>
 
 		    <?php endforeach ?>
 		 </ul>
 	</div>
 
+    <div id='overlay'></div>
+<div id='modal'>
+    <div id='content'>No JavaScript Yet!</div>
+    <a href='#' id='close'>close</a>
+</div>
 
-  
-  
+    <div class="intro">
+        <div class="close-buttons">X</div> 
+        <img src= "../../assets/images/traitpng2.png" class="trait" ></img>
+        <p>Introduction<br>
+        <br>
+         L'ambition d'Ivan Illich était immense : « (...) il faut inverser radicalement les institutions industrielles, reconstruire la société de fond en comble. »
+C'est un révolutionnaire et non un réformateur.
+Il est difficile de dire quel est l'héritage d'Illich mais il est probable que ce soit sa conception de l'outil qui reste la plus intéressante : « L’outil juste répond à trois exigences :
+il est générateur d'efficience sans dégrader l'autonomie personnelle,
+il ne suscite ni esclave ni maître,
+il élargit le rayon d'action personnelle».
+(Les externalités positives d'un outil conviviales sont supérieurs aux externalités négatives.)
+L'open source est un projet Illichien dont l'ambition est d'investir du temps, des connaissances pour créer des outils authentiques, par besoin ou par envie, et de rendre public ce travail. Les concepteurs  peuvent bénéficier des améliorations et des applications des autres utilisateurs. Les outils qui découlent de cette pratique sont des « outils conviviaux », justes.
+Dans le design graphique, la pratique du logiciel libre ne se limite pas, seulement, à l'utilisation de logicielsFLOSS (free/libre/open-source software) mais se traduit dans la conception des projets.
+Certains des travaux, que nous présentons, n'utilisent pas la programmation ou même l'informatique mais le process fait appel à certaines ambitions de l'open source sans pour autant en être le décalque ou l'illustration de ce qui ce fait dans la programmation. Ces travaux ne font pas appel à l'ensemble des caractéristiques du FLOSS (utiliser le logiciel sans restriction, étudier le logiciel, le modifier pour l’adapter à ses besoins et le redistribuer sous certaines conditions), mais : ils se créent en collaboration, débouchent sur la création d'outils spécifiques, partage les sources ou les outils... Il s'agit, pour nous, de projets, d'outils « conviviaux » qui contiennent en eux les caractéristiques de l'open source, de l'économie collaborative, tout comme la presse de Gutemberg contient en elle-même les caractéristiques de la modernité : reproduction de masse, travail à la chaîne.
+</p>
+    </div> 
+
 	<div class="tags">
 
         <label>
@@ -108,6 +129,10 @@ $(document).ready(function(){
 
     }); 
 
+        $(document).on('click','.close-buttons',function(){
+        $('.intro').remove();
+    });
+
     //    $(document).on('click','.introduction',function(){
     //       $('.introduction').remove();
     // });
@@ -120,6 +145,7 @@ $(document).ready(function(){
     $('.france').each(function() {
         $(div).append($(this));
     });
+
 
         // var div = document.createElement('div');
     // var wrapperClass = $('#canvas li').attr('class').split(' ')[0];
@@ -141,6 +167,13 @@ $(document).ready(function(){
 
     }); 
 
+    var a = 3;
+    $(".france-wrapper li").draggable({
+        containment: ".france-wrapper",
+        start: function(event, ui) { $(this).css("z-index", a++); }
+        
+    });
+
 
     /* PAYS BAS */    
 
@@ -161,6 +194,13 @@ $(document).ready(function(){
         $(this).css("top", t);
 
     }); 
+
+    //  var a = 3;
+    // $(".paysbas-wrapper li").draggable({
+    //     containment: ".paysbas-wrapper",
+    //     start: function(event, ui) { $(this).css("z-index", a++); }
+        
+    // });
 
 
     /* SUISSE */    
