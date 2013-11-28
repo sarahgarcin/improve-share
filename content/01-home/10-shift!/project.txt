@@ -1,4 +1,4 @@
-Title: This should made be public
+Title: This should be made public
 ----
 Year: 2007
 ----

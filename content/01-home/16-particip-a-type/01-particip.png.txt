@@ -1,0 +1,6 @@
+Title: Very nice image
+----
+Caption: 
+
+This is a very nice image with loads of colors and stuff.
+----

@@ -22,8 +22,8 @@
 
     <div id='overlay'></div>
 <div id='modal'>
-    <div id='content'>No JavaScript Yet!</div>
-    <a href='#' id='close'>close</a>
+    <div id='content'></div>
+    <a href='#' id='close'></a>
 </div>
 
     <div class="intro">
@@ -145,6 +145,7 @@ $(document).ready(function(){
     $('.france').each(function() {
         $(div).append($(this));
     });
+    $(".france-wrapper").append('<p class="pays">France</p>');
 
 
         // var div = document.createElement('div');
@@ -183,6 +184,8 @@ $(document).ready(function(){
     $('.paysbas').each(function() {
         $(div).append($(this));
     });
+    $(".paysbas-wrapper").append('<p class="pays">Pays-Bas</p>');
+
 
     $(".paysbas-wrapper li").each(
         function(intIndex) {
@@ -195,12 +198,12 @@ $(document).ready(function(){
 
     }); 
 
-    //  var a = 3;
-    // $(".paysbas-wrapper li").draggable({
-    //     containment: ".paysbas-wrapper",
-    //     start: function(event, ui) { $(this).css("z-index", a++); }
+     var a = 3;
+    $(".paysbas-wrapper li").draggable({
+        containment: ".paysbas-wrapper",
+        start: function(event, ui) { $(this).css("z-index", a++); }
         
-    // });
+    });
 
 
     /* SUISSE */    
@@ -211,6 +214,8 @@ $(document).ready(function(){
     $('.suisse').each(function() {
         $(div).append($(this));
     });
+    $(".suisse-wrapper").append('<p class="pays">Suisse</p>');
+
 
     $(".suisse-wrapper li").each(
         function(intIndex) {
@@ -231,6 +236,8 @@ $(document).ready(function(){
     $('.allemagne').each(function() {
         $(div).append($(this));
     });
+    $(".allemagne-wrapper").append('<p class="pays">Allemagne</p>');
+
 
     $(".allemagne-wrapper li").each(
         function(intIndex) {
@@ -251,6 +258,7 @@ $(document).ready(function(){
     $('.usa').each(function() {
         $(div).append($(this));
     });
+    $(".usa-wrapper").append('<p class="pays">États-Unis</p>');
 
     $(".usa-wrapper li").each(
         function(intIndex) {
@@ -271,6 +279,8 @@ $(document).ready(function(){
     $('.belgique').each(function() {
         $(div).append($(this));
     });
+    $(".belgique-wrapper").append('<p class="pays">Belgique</p>');
+
 
     $(".belgique-wrapper li").each(
         function(intIndex) {
@@ -291,6 +301,7 @@ $(document).ready(function(){
     $('.espagne').each(function() {
         $(div).append($(this));
     });
+    $(".espagne-wrapper").append('<p class="pays">Espagne</p>');
 
     $(".espagne-wrapper li").each(
         function(intIndex) {

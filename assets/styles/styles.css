@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'ume';
     src: url('../fonts/ume-p-mincho-webfont.eot');
     src: url('../fonts/ume-p-mincho-webfont.eot?#iefix') format('embedded-opentype'),
@@ -8,7 +8,51 @@
     font-weight: normal;
     font-style: normal;
 
+}*/
+
+
+@font-face {
+    font-family: 'old_standard';
+    src: url('../fonts/oldstandard-bold-webfont.eot');
+    src: url('../fonts/oldstandard-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oldstandard-bold-webfont.woff') format('woff'),
+         url('../fonts/oldstandard-bold-webfont.ttf') format('truetype'),
+         url('../fonts/oldstandard-bold-webfont.svg#old_standard_ttbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
 }
+
+
+
+
+@font-face {
+    font-family: 'old_standard';
+    src: url('../fonts/oldstandard-italic-webfont.eot');
+    src: url('../fonts/oldstandard-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oldstandard-italic-webfont.woff') format('woff'),
+         url('../fonts/oldstandard-italic-webfont.ttf') format('truetype'),
+         url('../fonts/oldstandard-italic-webfont.svg#old_standard_ttitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'old_standard';
+    src: url('../fonts/oldstandard-regular-webfont.eot');
+    src: url('../fonts/oldstandard-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oldstandard-regular-webfont.woff') format('woff'),
+         url('../fonts/oldstandard-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oldstandard-regular-webfont.svg#old_standard_ttregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 * {
   margin: 0px;
@@ -20,7 +64,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  font-family: 'ume',Helvetica, Arial, sans-serif;
+  font-family: 'old_standard',Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 26px;
   background: #ededee;
@@ -87,19 +131,46 @@ nav li {
 nav li a.active {
   color: red;
 }
+nav.menu li{
+  color:#333333;
+  font-weight: bold;
+  font-size:1.2em;
+  text-transform: uppercase;
+  padding-top: 1em;
+  letter-spacing: 0.2em;
+}
+nav.menu li a{
+  color:#333333;
+}
+
+nav.menu li a:hover{
+  color:#333333;
+}
+
+nav.menu li a:active{
+  color:#333333;
+}
+
 nav.submenu {
   border-top: none;
-  margin-bottom: 20px;
+  margin-bottom: 3%;
+  margin-left:100px;
+  margin-top: 2%;
 }
+
 nav.submenu a {
   font-weight: normal;
 }
-section.content {
-  margin: 70px;
-  height:90%;
+
+nav.submenu ul{
+  margin-left:0;
 }
 
-section.content-projet {
+nav.submenu li{
+  margin-right:15%;
+}
+
+section.content {
   margin: 70px;
   height:90%;
 }
@@ -113,7 +184,7 @@ height: 70%;
 #canvas li {
   position:absolute;
   list-style: none;
-  border: 0.15em solid #00CED1;
+  border: 0.15em solid #1121d4;
   background: #FFF;
 /*  width:100%;*/
 }
@@ -150,10 +221,10 @@ height: 70%;
 .france-wrapper {
 position: fixed;
 width:15%;
-height:10%;
+height:15%;
 top:1%;
 left:1%;
-border: 1px solid #000;
+border: 1px dotted #000;
 }
 
 .france-wrapper li{
@@ -165,8 +236,8 @@ position:fixed;
 width:30%;
 height:5%;
 top:1%;
-left:29%;
-border: 1px solid #000;
+left:30%;
+border: 1px dotted #000;
 }
 
 .paysbas-wrapper li{
@@ -179,7 +250,7 @@ width:16%;
 height:10%;
 top:6%;
 left:75%;
-border: 1px solid #000;
+border: 1px dotted #000;
 }
 
 .suisse-wrapper li{
@@ -192,7 +263,7 @@ width:10%;
 height:10%;
 top:50%;
 left:30%;
-border: 1px solid #000;
+border: 1px dotted #000;
 }
 
 .allemagne-wrapper li{
@@ -205,7 +276,7 @@ width:13%;
 height:10%;
 top:50%;
 left:52%;
-border: 1px solid #000;
+border: 1px dotted #000;
 }
 
 .belgique-wrapper li{
@@ -218,7 +289,7 @@ width:16%;
 height:10%;
 top:50%;
 left:1%;
-border: 1px solid #000;
+border: 1px dotted #000;
 }
 
 .usa-wrapper li{
@@ -231,11 +302,20 @@ width:7%;
 height:10%;
 top:50%;
 left:72%;
-border: 1px solid #000;
+border: 1px dotted #000;
 }
 
 .espagne-wrapper li{
 width:130%;
+}
+
+/* NOM DE PAYS CSS */
+
+.pays {
+  padding:1em;
+  text-transform: uppercase;
+  letter-spacing: 0.45em;
+
 }
 
 
@@ -264,11 +344,11 @@ width:130%;
 /* Classe pour la couleur du border des images suivants leurs tags*/
 
 #canvas li.creation-outil {
-  border-color: #00CED1;
+  border-color: #1121d4;
 }
 
 #canvas li.documentation {
-  border-color: #ffee00;
+  border-color: #f934c8;
 }
 
 #canvas li.partage-sources {
@@ -284,12 +364,73 @@ width:130%;
 }
 
 #canvas li.software{
-  border-color: #7dc800;
+  border-color: #2ae91c;
 }
 
 #canvas li.search{
   border-color: #808080;
 }
+
+/* Classe pour la couleur du submenu*/
+
+nav.submenu li.creation-outil a:hover{
+  color: #1121d4;
+}
+
+nav.submenu li.documentation a:hover{
+  color: #f934c8;
+}
+
+nav.submenu li.partage-sources a:hover{
+  color: #000f63;
+}
+
+nav.submenu li.collaborate a:hover{
+  color: #e76519;
+}
+
+nav.submenu li.work-conf a:hover{
+  color: #ff4980;
+}
+
+nav.submenu li.software a:hover{
+  color: #2ae91c;
+}
+
+nav.submenu li.search a:hover{
+  color: #808080;
+}
+
+nav.submenu li.creation-outil a.active{
+  color: #1121d4;
+}
+
+nav.submenu li.documentation a.active{
+  color: #f934c8;
+}
+
+nav.submenu li.partage-sources a.active{
+  color: #000f63;
+}
+
+nav.submenu li.collaborate a.active{
+  color: #e76519;
+}
+
+nav.submenu li.work-conf a.active{
+  color: #ff4980;
+}
+
+nav.submenu li.software a.active{
+  color: #2ae91c;
+}
+
+nav.submenu li.search a.active{
+  color: #808080;
+}
+
+
+
 
 /* INTRODUCTION */
 
@@ -351,7 +492,56 @@ width:130%;
 
 }
 
-/* Page Project */
+
+/* PAGE PROJET */
+
+  /* GENERAL */
+
+section.content-projet {
+  margin-top:2%;
+  margin-left : 100px;
+  height:90%;
+}
+  
+  /* TEXTE*/
+
+section.content-projet h1{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 2.9em;
+}
+
+section.content-projet h2.author{
+  font-weight: normal;
+  font-size: 1.8em;
+  position:absolute;
+  left:10px;
+  padding:10px;
+
+}
+
+section.content-projet h2.year{
+  font-weight: normal;
+  font-size: 1.2em;
+  position:absolute;
+  margin-top:35px;
+  left:10px;
+  padding:10px;
+  padding-top: 10px;
+}
+
+section.content-projet p.text{
+margin-top:5%;
+padding:10px;
+padding-top: 20px;
+}
+
+  /* IMAGES */
+
+.gallery {
+  margin-top:5%;
+
+}  
 
 .gallery li{
   list-style: none;
@@ -359,6 +549,13 @@ width:130%;
 
 .gallery li img {
   width:80%;
+}
+
+.gallery li p.legendary{
+  width:100px;
+  text-align:left;
+  position:relative;
+  margin-bottom:50px;
 }
 
 footer {

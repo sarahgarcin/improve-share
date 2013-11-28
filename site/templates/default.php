@@ -8,24 +8,24 @@
 
   <article class="unit-40">
     <h1><?php echo html($page->title()) ?></h1>
-    <h2><?php echo kirbytext($page->author()) ?>
-    <?php echo kirbytext($page->year()) ?></h2>
-    <?php echo kirbytext($page->text()) ?>
+    <h2 class="author"><?php echo html($page->author()) ?></h2>
+    <h2 class="year"><?php echo html($page->year()) ?></h2>
+    <p class="text"><?php echo kirbytext($page->text()) ?></p>
     <?php echo kirbytext($page->lien()) ?>
-    <h5><?php echo kirbytext($page->titreoutils()) ?></h5>
-    <?php echo kirbytext($page->outils()) ?>
-    <h5><?php echo kirbytext($page->titrestudio()) ?></h5>
+    <h5><?php echo html($page->titreoutils()) ?></h5>
+    <?php echo html($page->outils()) ?>
+    <h5><?php echo html($page->titrestudio()) ?></h5>
     <?php echo kirbytext($page->studio()) ?>
     <?php echo kirbytext($page->site()) ?>
-    <h5><?php echo kirbytext($page->titreprojets()) ?></h5>
-    <?php echo kirbytext($page->projets()) ?>
-    <?php echo kirbytext($page->tags()) ?>
+    <h5><?php echo html($page->titreprojets()) ?></h5>
+    <?php echo html($page->projets()) ?>
+    <?php echo html($page->tags()) ?>
   </article>
 
   <?php if($page->hasImages()): ?> 
 <ul class="gallery unit-60">
   <?php foreach($page->images() as $image): ?>
-  <li><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /></li>
+  <li><img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" /><p class="legendary"><?php echo $image->caption() ?></p></li>
   <?php endforeach ?>
 </ul>
 <?php endif ?>
