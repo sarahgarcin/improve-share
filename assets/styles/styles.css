@@ -225,6 +225,8 @@ height:15%;
 top:1%;
 left:1%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .france-wrapper li{
@@ -238,6 +240,8 @@ height:5%;
 top:1%;
 left:30%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .paysbas-wrapper li{
@@ -251,6 +255,8 @@ height:10%;
 top:6%;
 left:75%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .suisse-wrapper li{
@@ -259,11 +265,13 @@ width:70%;
 
 .allemagne-wrapper {
 position:fixed;
-width:10%;
+width:11%;
 height:10%;
 top:50%;
 left:30%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .allemagne-wrapper li{
@@ -277,6 +285,8 @@ height:10%;
 top:50%;
 left:52%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .belgique-wrapper li{
@@ -290,6 +300,8 @@ height:10%;
 top:50%;
 left:1%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .usa-wrapper li{
@@ -298,11 +310,13 @@ width:80%;
 
 .espagne-wrapper {
 position:fixed;
-width:7%;
+width:9%;
 height:10%;
 top:50%;
 left:72%;
 border: 1px dotted #000;
+z-index:-1;
+background-color: #ededee;
 }
 
 .espagne-wrapper li{
@@ -312,10 +326,10 @@ width:130%;
 /* NOM DE PAYS CSS */
 
 .pays {
+  font-size: 0.9em;
   padding:1em;
   text-transform: uppercase;
   letter-spacing: 0.45em;
-
 }
 
 
@@ -489,6 +503,45 @@ nav.submenu li.search a.active{
   right:0;
   padding:0.2em 0.7em ;
   text-align:center;
+  cursor:pointer;
+
+}
+
+/* INTRO TOOGLE */
+
+.intro-toggle {
+  position:fixed;
+  bottom:30px;
+  left:30px;
+  border:0.15em solid #000;
+  background-color: #fff;
+  width:22%;
+  height:auto;
+  max-height:80%;
+  overflow:auto;
+  z-index:1000;
+}
+
+.intro-titre {
+  padding-top:20px;
+  font-size:1em;
+  padding-left:5%;
+  padding-right:5%;
+  text-align: center;
+  cursor:pointer;
+}
+
+.intro-titre:hover {
+  text-decoration: underline;
+
+}
+
+.intro-text {
+  display:none;
+  font-size:0.9em;
+  padding-left:5%;
+  padding-right:5%;
+  text-align: center;
 
 }
 

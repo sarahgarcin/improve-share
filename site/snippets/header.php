@@ -14,7 +14,12 @@
 
   <?php echo js('assets/js/jquery-1.9.1.min.js') ?>
   <?php echo js('assets/js/jquery-ui-1.10.3.custom.js') ?>
+  <?php echo js('assets/js/jquery.cookie.js') ?>
+  <?php echo js('assets/js/firstImpression.min.js') ?>  
   <?php echo js('assets/js/fancy/source/jquery.fancybox.js') ?>
+
+
+  
 
 </head>
 
