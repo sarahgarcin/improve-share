@@ -225,7 +225,6 @@ height:15%;
 top:1%;
 left:1%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -240,7 +239,6 @@ height:5%;
 top:1%;
 left:30%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -255,7 +253,6 @@ height:10%;
 top:6%;
 left:75%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -270,7 +267,6 @@ height:10%;
 top:50%;
 left:30%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -285,7 +281,6 @@ height:10%;
 top:50%;
 left:52%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -300,7 +295,6 @@ height:10%;
 top:50%;
 left:1%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -315,7 +309,6 @@ height:10%;
 top:50%;
 left:72%;
 border: 1px dotted #000;
-z-index:-1;
 background-color: #ededee;
 }
 
@@ -326,10 +319,10 @@ width:130%;
 /* NOM DE PAYS CSS */
 
 .pays {
-  font-size: 0.9em;
+  font-size: 0.85em;
   padding:1em;
   text-transform: uppercase;
-  letter-spacing: 0.45em;
+  letter-spacing: 0.4em;
 }
 
 
@@ -337,22 +330,82 @@ width:130%;
 
 .tags {
   z-index: 1000;
-  background:#fff;
   display: block;
   position:fixed;
+  background: #FFF;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
   bottom:30px;
   right:30px;
 }
 
 .tags label{
-  display:block;
-  border: 1px solid #000;
+  display: block;
   padding:0.7em;
+  border-bottom: 1px solid #000;
 }
 
 .tags input{
   display: inline-block;
+}
 
+/* couleurs menu */
+
+.tags label .label-outils:hover{
+  color: #1121d4;
+}
+
+.tags label input:checked + .label-outils {
+  color: #1121d4;
+}
+
+.tags label .label-doc:hover{
+  color: #f934c8;
+}
+
+.tags label input:checked + .label-doc {
+  color: #f934c8;
+}
+
+.tags label .label-sources:hover{
+  color: #000f63;
+}
+
+.tags label input:checked + .label-sources {
+  color: #000f63;
+}
+
+.tags label .label-collab:hover{
+  color: #e76519;
+}
+
+.tags label input:checked + .label-collab {
+  color: #e76519;
+}
+
+.tags label .label-work:hover{
+  color: #ff4980;
+}
+
+.tags label input:checked + .label-work {
+  color: #ff4980;
+}
+
+.tags label .label-log:hover{
+  color: #2ae91c;
+}
+
+.tags label input:checked + .label-log {
+  color: #2ae91c;
+}
+
+.tags label .label-rech:hover{
+  color: #808080;
+}
+
+.tags label input:checked + .label-rech {
+  color: #808080;
 }
 
 /* Classe pour la couleur du border des images suivants leurs tags*/
@@ -444,10 +497,8 @@ nav.submenu li.search a.active{
 }
 
 
-
-
 /* INTRODUCTION */
-
+/*
 #canvas li.introduction {
   border-color: #000;
   width:23%;
@@ -470,7 +521,7 @@ nav.submenu li.search a.active{
 .intro {
   border:0.15em solid #000;
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top:10%;
   left:40%;
   width:22%;
@@ -485,7 +536,7 @@ nav.submenu li.search a.active{
   font-size:0.9em;
   padding-left:5%;
   padding-right:5%;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -505,7 +556,7 @@ nav.submenu li.search a.active{
   text-align:center;
   cursor:pointer;
 
-}
+}*/
 
 /* INTRO TOOGLE */
 
@@ -515,7 +566,7 @@ nav.submenu li.search a.active{
   left:30px;
   border:0.15em solid #000;
   background-color: #fff;
-  width:22%;
+  width:28%;
   height:auto;
   max-height:80%;
   overflow:auto;
@@ -538,10 +589,10 @@ nav.submenu li.search a.active{
 
 .intro-text {
   display:none;
-  font-size:0.9em;
+  font-size:0.95em;
   padding-left:5%;
   padding-right:5%;
-  text-align: center;
+  text-align: left;
 
 }
 

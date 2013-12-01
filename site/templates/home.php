@@ -13,7 +13,6 @@
 	  			<p><?php echo $project->year() ?> </br>
 	  			<?php echo $project->title() ?></br>
 	  			<?php echo $project->author() ?></p>
-<!-- 	  			<p><?php echo $project->intro() ?></p> -->
 		    </li>
 
 		    <?php endforeach ?>
@@ -43,9 +42,9 @@ Dans le design graphique, la pratique du logiciel libre ne se limite pas, seulem
 Certains des travaux, que nous présentons, n'utilisent pas la programmation ou même l'informatique mais le process fait appel à certaines ambitions de l'open source sans pour autant en être le décalque ou l'illustration de ce qui ce fait dans la programmation. Ces travaux ne font pas appel à l'ensemble des caractéristiques du FLOSS (utiliser le logiciel sans restriction, étudier le logiciel, le modifier pour l’adapter à ses besoins et le redistribuer sous certaines conditions), mais : ils se créent en collaboration, débouchent sur la création d'outils spécifiques, partage les sources ou les outils... Il s'agit, pour nous, de projets, d'outils « conviviaux » qui contiennent en eux les caractéristiques de l'open source, de l'économie collaborative, tout comme la presse de Gutemberg contient en elle-même les caractéristiques de la modernité : reproduction de masse, travail à la chaîne.
 </p>
     </div>  -->
-
+<!--     <div id='overlay'></div> -->
     <div class="intro-toggle">
-        <p class="intro-titre"> Introduction </p>
+        <p class="intro-titre"> Enjeux et promesses des projets conviviaux </p>
         <p class="intro-text">L'ambition d'Ivan Illich était immense : « (...) il faut inverser radicalement les institutions industrielles, reconstruire la société de fond en comble. »
 C'est un révolutionnaire et non un réformateur.
 Il est difficile de dire quel est l'héritage d'Illich mais il est probable que ce soit sa conception de l'outil qui reste la plus intéressante : « L’outil juste répond à trois exigences :
@@ -63,35 +62,34 @@ Certains des travaux, que nous présentons, n'utilisent pas la programmation ou 
 
         <label>
             <input type="checkbox" rel="outil" />
-            Création / augmentation d'outils
+            <span class="label-outils">Création / augmentation d'outils</span>
         </label>
         <label>
             <input type="checkbox" rel="doc" />
-            Partage de la documentation
+            <span class="label-doc">Partage de la documentation</span>
         </label>
         <label>
             <input type="checkbox" rel="source" />
-            Partage des sources
+            <span class="label-sources">Partage des sources</span>
         </label>
         <label>
             <input type="checkbox" rel="collaboration" />
-            Création en collaboration
+            <span class="label-collab">Création en collaboration</span>
         </label>
          <label>
             <input type="checkbox" rel="workshop" />
-            Workshop / Conférences
+            <span class="label-work">Workshop / Conférences</span>
         </label>
          <label>
             <input type="checkbox" rel="logiciels" />
-            Utilisation de logiciels open source
+            <span class="label-log">Utilisation de logiciels open source</span>
         </label>
         <label>
             <input type="checkbox" rel="recherche" />
-            Projets de recherche
+            <span class="label-rech">Projets de recherche</span>
         </label>
     
-    </div> 
-   
+    </div>    
 
 </section>
 
@@ -123,30 +121,30 @@ $(document).ready(function(){
 
 // Création d'une div de type "pays" + intégration des projets du pays dans la div
 
-    /* INTRODUCTION*/
+    /* INTRODUCTION */
 
-    var div = document.createElement('div');
-    div.className = "introduction-wrapper"; 
-    $('.projets').append(div);
-    $('.introduction').each(function() {
-        $(div).append($(this));
-    });
+    // var div = document.createElement('div');
+    // div.className = "introduction-wrapper"; 
+    // $('.projets').append(div);
+    // $('.introduction').each(function() {
+    //     $(div).append($(this));
+    // });
 
 
-    $(".introduction-wrapper li").each(
-        function(intIndex) {
+    // $(".introduction-wrapper li").each(
+    //     function(intIndex) {
 
-            var l = Math.floor(Math.random() * $(".introduction-wrapper").width());
-            var t = Math.floor(Math.random() * $(".introduction-wrapper").height());
+    //         var l = Math.floor(Math.random() * $(".introduction-wrapper").width());
+    //         var t = Math.floor(Math.random() * $(".introduction-wrapper").height());
 
-        $(this).css("left", l);
-        $(this).css("top", t);
+    //     $(this).css("left", l);
+    //     $(this).css("top", t);
 
-    }); 
+    // }); 
 
-        $(document).on('click','.close-buttons',function(){
-        $('.intro').remove();
-    });
+    //     $(document).on('click','.close-buttons',function(){
+    //     $('.intro').remove();
+    // });
 
     //    $(document).on('click','.introduction',function(){
     //       $('.introduction').remove();
