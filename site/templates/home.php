@@ -5,7 +5,7 @@
 	<div id = "canvas">
 
 		<ul class= "projets">
-			<?php foreach($page->children()->visible()->shuffle() as $project): ?>
+			<?php foreach($page->children()->visible() as $project): ?>
 			<?php $image = $project->images()->first()?>
 
 			<li class = "<?php echo $project->filter() ?> <?php echo $project->important() ?> <?php echo $project->pays() ?>" >
@@ -45,6 +45,7 @@ Certains des travaux, que nous présentons, n'utilisent pas la programmation ou 
 <!--     <div id='overlay'></div> -->
     <div class="intro-toggle">
         <p class="intro-titre"> Enjeux et promesses des projets conviviaux </p>
+        <p class="contrib"><a href="<?php echo url('contrib') ?>" class="intro-text"> /////////  Fonctionnement et contributions  /////////</a></p>
         <p class="intro-text">L'ambition d'Ivan Illich était immense : « (...) il faut inverser radicalement les institutions industrielles, reconstruire la société de fond en comble. »
 C'est un révolutionnaire et non un réformateur.
 Il est difficile de dire quel est l'héritage d'Illich mais il est probable que ce soit sa conception de l'outil qui reste la plus intéressante : « L’outil juste répond à trois exigences :

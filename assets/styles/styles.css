@@ -139,6 +139,11 @@ nav.menu li{
   padding-top: 1em;
   letter-spacing: 0.2em;
 }
+
+nav.menu li:nth-child(2){
+  display:none;
+}
+
 nav.menu li a{
   color:#333333;
 }
@@ -212,11 +217,11 @@ height: 70%;
 
 /* ILOT WRAPPER */
 
-.introduction-wrapper {
+/*.introduction-wrapper {
   width:50%;
   height:10%; 
   z-index:1000;
-}
+}*/
 
 .france-wrapper {
 position: fixed;
@@ -564,7 +569,7 @@ nav.submenu li.search a.active{
   position:fixed;
   bottom:30px;
   left:30px;
-  border:0.15em solid #000;
+  border:1px solid #000;
   background-color: #fff;
   width:28%;
   height:auto;
@@ -594,6 +599,10 @@ nav.submenu li.search a.active{
   padding-right:5%;
   text-align: left;
 
+}
+
+.contrib:hover{
+  text-decoration:underline;
 }
 
 
