@@ -290,7 +290,7 @@ body {
   font-family: 'old_standard', Arial, "Helvetica Neue", Helvetica, Tahoma, sans-serif;
 }
 a {
-  color: #000;
+  color:#333333;
 }
 a:focus,
 a:hover {

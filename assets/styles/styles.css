@@ -189,9 +189,8 @@ height: 70%;
 #canvas li {
   position:absolute;
   list-style: none;
-  border: 0.15em solid #1121d4;
+  border: 0.1em solid #000;
   background: #FFF;
-/*  width:100%;*/
 }
 
 #canvas img {
@@ -205,23 +204,18 @@ height: 70%;
   padding:3px;
   float:center;
   text-align: center;
+
 }
 
 #canvas li p a{
-  color:#000;
+  color: #333333;
 }
 
-#canvas li p a:hover{
+/*#canvas li p:hover{
   text-decoration: underline;
-}
+}*/
 
 /* ILOT WRAPPER */
-
-/*.introduction-wrapper {
-  width:50%;
-  height:10%; 
-  z-index:1000;
-}*/
 
 .france-wrapper {
 position: fixed;
@@ -374,11 +368,11 @@ width:130%;
 }
 
 .tags label .label-sources:hover{
-  color: #000f63;
+  color: #690092;
 }
 
 .tags label input:checked + .label-sources {
-  color: #000f63;
+  color: #690092;
 }
 
 .tags label .label-collab:hover{
@@ -390,11 +384,11 @@ width:130%;
 }
 
 .tags label .label-work:hover{
-  color: #ff4980;
+  color: #d00000;
 }
 
 .tags label input:checked + .label-work {
-  color: #ff4980;
+  color: #d00000;
 }
 
 .tags label .label-log:hover{
@@ -424,7 +418,7 @@ width:130%;
 }
 
 #canvas li.partage-sources {
-  border-color: #000f63;
+  border-color: #690092;
 }
 
 #canvas li.collaborate {
@@ -432,7 +426,7 @@ width:130%;
 }
 
 #canvas li.work-conf {
-  border-color: #ff4980;
+  border-color: #d00000;
 }
 
 #canvas li.software{
@@ -454,7 +448,7 @@ nav.submenu li.documentation a:hover{
 }
 
 nav.submenu li.partage-sources a:hover{
-  color: #000f63;
+  color: #690092;
 }
 
 nav.submenu li.collaborate a:hover{
@@ -462,7 +456,7 @@ nav.submenu li.collaborate a:hover{
 }
 
 nav.submenu li.work-conf a:hover{
-  color: #ff4980;
+  color: #d00000;
 }
 
 nav.submenu li.software a:hover{
@@ -482,7 +476,7 @@ nav.submenu li.documentation a.active{
 }
 
 nav.submenu li.partage-sources a.active{
-  color: #000f63;
+  color: #690092;
 }
 
 nav.submenu li.collaborate a.active{
@@ -490,7 +484,7 @@ nav.submenu li.collaborate a.active{
 }
 
 nav.submenu li.work-conf a.active{
-  color: #ff4980;
+  color: #d00000;
 }
 
 nav.submenu li.software a.active{
@@ -500,68 +494,6 @@ nav.submenu li.software a.active{
 nav.submenu li.search a.active{
   color: #808080;
 }
-
-
-/* INTRODUCTION */
-/*
-#canvas li.introduction {
-  border-color: #000;
-  width:23%;
-  height:80%;
-  overflow:auto;
-  z-index:3;
-}
-
-#canvas li.introduction img{
-  padding-bottom:0;
-}
-
-#canvas li.introduction p{
-  font-size:0.9em;
-  padding-left:15px;
-  padding-right: 15px;
-  
-}
-
-.intro {
-  border:0.15em solid #000;
-  background-color: #fff;
-  position: fixed;
-  top:10%;
-  left:40%;
-  width:22%;
-  height:auto;
-  max-height:80%;
-  overflow:auto;
-  z-index:1000;
-
-}
-
-.intro p{
-  font-size:0.9em;
-  padding-left:5%;
-  padding-right:5%;
-  text-align: left;
-
-}
-
-.intro img{
-  width:90%;
-  float:center;
-  margin:5%;
-}
-
-.intro .close-buttons {
-  font-size:0.9em;
-  width:2%;
-  position:absolute;
-  top:0;
-  right:0;
-  padding:0.2em 0.7em ;
-  text-align:center;
-  cursor:pointer;
-
-}*/
 
 /* INTRO TOOGLE */
 
@@ -579,16 +511,19 @@ nav.submenu li.search a.active{
 }
 
 .intro-titre {
-  padding-top:20px;
   font-size:1em;
+  padding-top:2%;
+  padding-bottom:2%;
   padding-left:5%;
   padding-right:5%;
+  margin-bottom: 0;
   text-align: center;
   cursor:pointer;
 }
 
 .intro-titre:hover {
   text-decoration: underline;
+  color:#000;
 
 }
 
@@ -598,6 +533,21 @@ nav.submenu li.search a.active{
   padding-left:5%;
   padding-right:5%;
   text-align: left;
+
+}
+
+.intro-text a:hover {
+  text-decoration: underline;
+}
+
+.contrib {
+  padding:2%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 0;
+  font-size:1em;
+  text-align: center;
+  cursor:pointer;
+
 
 }
 
