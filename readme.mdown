@@ -1,86 +1,82 @@
-# Kirby
+# Tools for Conviviality
 
-Kirby is a file-based CMS.   
-Easy to setup, easy to use, flexible as hell.
+This website is a part of our final year project at ENSAD.
+We decide to share the source code, and documentate it. 
 
-<http://getkirby.com>
+## FEATURES
 
-Subscribe to the Kirby newsletter: <http://tinyletter.com/kirby>    
-or follow @getkirby on Twitter for updates: <http://twitter.com/getkirby>
-Kirby even has a Facebook page: <http://facebook.com/getkirby>
+* Projects organization by country
+* Projects are draggable in the country containment
+* Projects are filtrables with checkbox filters
 
+## DEPENDANCIES
 
-## Buy
+* JQuery
+* jquery.cookie.js -> https://github.com/carhartl/jquery-cookie
+* firstImpression.js -> https://github.com/robflaherty/firstImpression.js/tree/master
+* Typeface : Old Standard TT -> http://www.fontsquirrel.com/fonts/Old-Standard-TT
 
-Though Kirby's source code is available on Github: <http://github.com/bastianallgeier/kirbycms>, you must purchase a license per website. Please go to <http://getkirby.com/buy> for more information.
+## CODE
 
+### Projects organization by country 
 
-## Installation
+#### Create a wrapper-div by country and append each project with the country class to this
 
-Installing Kirby couldn't be simpler. Just connect to your FTP-Server and upload all files contained in the Kirby package to the document root of your server – done!
-
-Visit <http://yourdomain.com> (you should probably replace that with your url :)) and take a look at your brand new, Kirby-flavoured site.
-
-
-### Adding your license code
-
-After you've purchased a license for Kirby, please add your license code to site/config/config.php:
-
-	c::set('license', 'put your license code here');
-
-
-### Running Kirby in a subfolder of your domain
-
-Kirby will try to automatically detect if your site is installed in a subfolder. I.e.: `http://yourdomain.com/subfolder`
-
-Sometimes auto-detection might fail, depending on your server setup. In that case, go to `site/config/config.php` and make sure you manually set the url config variable:
-	
-	c::set('url', 'http://yourdomain.com/subfolder');
-
-Afterwards make sure to also set the subfolder name:
-
-	c::set('subfolder', 'mySubfolderName');
-
-You probably also need to adjust the RewriteBase in the `.htaccess` file if you want to use mod_rewrite. You will find more information about all this in the default config file and the `.htaccess` file.
+    'var div = document.createElement('div');
+    div.className = "france-wrapper"; 
+    $('.projets').append(div);
+    $('.france').each(function() {
+        $(div).append($(this));
+    });
+    $(".france-wrapper").append('<p class="pays">France</p>');'
 
 
-### URL Rewriting
+#### Each project take a random position in his wrapper-div 
 
-If you are not allowed to have your own `.htaccess` file or to use mod_rewrite, go to `site/config/config.php` and search for the part where you can switch off url rewriting. 
+    '$(".france-wrapper li").each(
+        function(intIndex) {
 
+            var l = Math.floor(Math.random() * $(".france-wrapper").width());
+            var t = Math.floor(Math.random() * $(".france-wrapper").height());
 
-#### Trouble with URL Rewriting?
+        $(this).css("left", l);
+        $(this).css("top", t);
 
-If you're seeing 404 errors for pages other than your index page, you may need to make sure Apache is allowing mod_rewrite configuration in your `.htaccess` file.
+    });'
 
-Open up your site's VirtualHost file and make sure that the `AllowOverride` directive is set to `All`, or at least that it contains `FileInfo` and  `Options` for your site's directory.
+#### Each project is draggable in his wrapper-div and z-index increment when project is dragged
 
-**Here's an example VirtualHost:**
+    var a = 3;
+    $(".france-wrapper li").draggable({
+        containment: ".france-wrapper",
+        start: function(event, ui) { $(this).css("z-index", a++); }        
+    });
 
-	<VirtualHost *:80>
-		ServerName yourdomain.com
-		DocumentRoot "/path/to/your/site"
-		# ...
-		<Directory /path/to/your/site>
-			AllowOverride All
-			# ...
-		</Directory>
-	</VirtualHost>
+### Use of firstImpression    
 
+	'if ( firstImpression() ) {
+	      $('.intro-text').css('display','block');
+	    } 
+	    else {
+	      $('.intro-text').css('display','none'); 
+	    } 
 
-## Documentation
-<http://getkirby.com/docs>
+	});'	
 
+### Filters with multiple checkbox
 
-## Support
-<http://getkirby.com/contact>
+    '$('div.tags').delegate('input[type=checkbox]', 'change', function()
+    {
+        var $lis = $('.projets > div > li'),
+            $checked = $('input:checked');
 
-
-## Contact 
-<mail@getkirby.com>
-
-
-## Copyright
-
-© 2009-2012 Bastian Allgeier (OpenWe GmbH)
-<http://getkirby.com>
+        if ($checked.length) {
+            var selector = $checked.map(function(){
+                return '.' + $(this).attr('rel');
+            }).get().join('');
+            $lis.hide().filter(selector).show();     
+        }
+        else {
+            $lis.show();
+        }
+    });'

@@ -10,21 +10,19 @@
 
   <?php echo css('assets/styles/styles.css') ?>
   <?php echo css('assets/styles/kube.css') ?>
-  <?php echo css('assets/js/fancy/source/jquery.fancybox.css') ?>
 
   <?php echo js('assets/js/jquery-1.9.1.min.js') ?>
   <?php echo js('assets/js/jquery-ui-1.10.3.custom.js') ?>
   <?php echo js('assets/js/jquery.cookie.js') ?>
-  <?php echo js('assets/js/firstImpression.min.js') ?>  
-  <?php echo js('assets/js/fancy/source/jquery.fancybox.js') ?>
+  <?php echo js('assets/js/firstImpression.min.js') ?>
+  <?php echo js('assets/js/script.js') ?> 
 
 
-  
 
 </head>
 
 <body>
 
   <header>
-    <!-- <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1> -->
+
   </header>
