@@ -22,18 +22,18 @@ We decide to share the source code, and documentate it.
 
 #### Create a wrapper-div by country and append each project with the country class to this
 
-    'var div = document.createElement('div');
+    var div = document.createElement('div');
     div.className = "france-wrapper"; 
     $('.projets').append(div);
     $('.france').each(function() {
         $(div).append($(this));
     });
-    $(".france-wrapper").append('<p class="pays">France</p>');'
+    $(".france-wrapper").append('<p class="pays">France</p>');
 
 
 #### Each project take a random position in his wrapper-div 
 
-    '$(".france-wrapper li").each(
+    $(".france-wrapper li").each(
         function(intIndex) {
 
             var l = Math.floor(Math.random() * $(".france-wrapper").width());
@@ -42,7 +42,7 @@ We decide to share the source code, and documentate it.
         $(this).css("left", l);
         $(this).css("top", t);
 
-    });'
+    });
 
 #### Each project is draggable in his wrapper-div and z-index increment when project is dragged
 
@@ -54,18 +54,18 @@ We decide to share the source code, and documentate it.
 
 ### Use of firstImpression    
 
-	'if ( firstImpression() ) {
+	if ( firstImpression() ) {
 	      $('.intro-text').css('display','block');
 	    } 
 	    else {
 	      $('.intro-text').css('display','none'); 
 	    } 
 
-	});'	
+	});	
 
 ### Filters with multiple checkbox
 
-    '$('div.tags').delegate('input[type=checkbox]', 'change', function()
+    $('div.tags').delegate('input[type=checkbox]', 'change', function()
     {
         var $lis = $('.projets > div > li'),
             $checked = $('input:checked');
@@ -79,4 +79,4 @@ We decide to share the source code, and documentate it.
         else {
             $lis.show();
         }
-    });'
+    });

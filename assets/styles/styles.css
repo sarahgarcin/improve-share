@@ -613,6 +613,12 @@ footer a:hover {
   color: #222;
 }
 
+/* COMMENTAIRES*/
+.comments {
+  width:80%;
+  margin:auto;
+}
+
 /* ScrollBar css */
 
 ::-webkit-scrollbar {  

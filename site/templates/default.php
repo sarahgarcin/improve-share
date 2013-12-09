@@ -32,7 +32,11 @@
 
 </section>
 
+<div class="comments"><?php snippet('disqus', array('disqus_shortname' => 'outilsetprojetsconviviaux')) ?>
 </div>
+
+</div>
+
 
 
 <script type="text/javascript">
